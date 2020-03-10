@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PRES</string>
+    <string name="bienv">Solicite su préstamo aquí!</string>
+    <string name="diezmil">$10.000!</string>
+    <string name="veintemil">$20.000!</string>
+    <string name="cincuentamil">$50.000!</string>
+    <string name="cienmil">$100.000!</string>
+    <string name="Resultado">Resultado:</string>
+    <string name="una">1</string>
+    <string name="seis">6</string>
+    <string name="doce">12</string>
+    <string name="numerodecuotas">Número de cuotas:</string>
+    <string name="monto">Monto:</string>
+    <string name="obtenerinfo">Obtener info</string>
+</resources>

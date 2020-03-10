@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/bienv"
+                android:textColor="@android:color/black"
+                android:textSize="27sp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/checboxes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/container"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/monto"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbdiezmil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/diezmil"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbveintemil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/veintemil"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbcincuentamil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cincuentamil"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cbcienmil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cienmil"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/numerodecuotas"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnuna"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/una"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btnseis"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/seis"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btndoce"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/doce"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnobtenerinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/obtenerinfo"
+                android:textSize="23sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvresultado2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

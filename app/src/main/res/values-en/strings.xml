@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loan</string>
+    <string name="Resultado">Result:</string>
+    <string name="cienmil">$100.000!</string>
+    <string name="diezmil">$10.000!</string>
+    <string name="veintemil">$20.000!</string>
+    <string name="una">1</string>
+    <string name="seis">6</string>
+    <string name="obtenerinfo">Get info</string>
+    <string name="numerodecuotas">Number of dues:</string>
+    <string name="monto">Amount:</string>
+    <string name="doce">12</string>
+    <string name="bienv">Apply for your loan here!</string>
+    <string name="cincuentamil">$50.000!</string>
+</resources>
